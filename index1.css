@@ -1,0 +1,81 @@
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4;
+  }
+  
+  .flex-container1 > div:first-child {
+    background-color: #f4f4f4;
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+  
+  .flex-container1 > div {
+    background-color: #f4f4f4;
+    width: 600px;
+  }
+
+  .flex-container1 h6{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4;
+  }
+  
+  .flex-container2 > div:first-child {
+    background-color: #f4f4f4;
+    width: 700px;
+  }
+  
+  .flex-container2 > div {
+    background-color: #f4f4f4;
+    width: 100px;
+    margin-right: 55px;
+    margin-top: 8px;
+  }
+
+  .flex-container2 h5{
+    margin-top: 15px;
+    margin-left: 130px;
+    font-size: 15px;
+  }
+
+  .flex-container2 h6{
+    margin-top: 5px;
+    margin-left: 350px;
+    font-size: 12px;
+  }
+
+   .navbar{
+    background-color: #004bb1;
+   }
+
+   .navbar ul{
+      margin-left: 100px;
+   }
+
+   .navbar li a{
+    color: white;
+    margin-left: 10px;
+   }
+
+  .navbar a:hover{
+    background-color: #009afd;
+    color: black;
+  }
+
+  .container .overflow-container{
+      background-color: #ebf1f9;
+      height: 350px;
+      width: 380px;
+      overflow-y: scroll;
+    }
+
+  
